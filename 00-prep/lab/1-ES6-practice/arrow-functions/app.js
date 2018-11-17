@@ -197,4 +197,4 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //The Window object.
 // 3. Explain why "this" is different when an arrow function is used.
-//Arrow functions don't have own this. Therefore the this of the original object is displayed and remains unchanged.
+//Arrow functions don't have their own this. Therefore the this of the original object is displayed and remains unchanged.
